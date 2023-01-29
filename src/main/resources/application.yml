@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: dbadmin
+    url: jdbc:postgresql://localhost:5432/testdb
+    password: dbadmin
+
+  flyway:
+    locations: classpath:dbmigrations/
+    enabled: true
+    clean-disabled: false
+    schemas: public
