@@ -7,8 +7,4 @@ spring:
 
 auth0:
   audience: https://api.kodizim.com
-  client-id: QWfqKNOJmq1Tt2IeicU5T3ATcTXnLPYV
-  client-secret: m3qSvpYavq2FdnCZdmZuqIsEpugNscoU6GYYPxGFVcausMT3_VNZWT6yHgh1Jy3x
-  domain: kodizim.eu.auth0.com
   issuer-uri: https://kodizim.eu.auth0.com/
-  management-audience: https://kodizim.eu.auth0.com/api/v2/

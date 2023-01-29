@@ -10,3 +10,7 @@ spring:
     enabled: true
     clean-disabled: false
     schemas: public
+
+auth0:
+  audience: https://api.kodizim.com
+  issuer-uri: https://kodizim.eu.auth0.com/
